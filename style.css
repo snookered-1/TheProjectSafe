@@ -28,6 +28,12 @@ body {
     justify-content: center;
 }
 
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 #projectcontainer {
     background-color: red;
@@ -35,4 +41,6 @@ body {
     height: 120px;
     border-radius: 20px;
     margin: 20px;
+    display: flex;
+    flex-direction: row;
 }
