@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+#addproject {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+}
+
+
+
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#projectcontainer {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 20px;
+}
